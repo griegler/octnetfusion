@@ -24,7 +24,17 @@ If you find this code useful for your research, please cite
 ```
 
 ## Code Overview
-TBA
+- `src` - Contains Python/Lua code that is shared for all experiments.
+- `src/modelnet` - Code to create data for the ModelNet experiments and train/test networks.
+
+To run the ModelNet experiments you have to create the data first by running `create_data.py`.
+Make sure the Python libraries are in your `$PYTHONPATH` and the path to the ModelNet40 dataset is set.  
+You can change the setting by changing the number of input views and the input noise.
+
+An exemplar training/testing script with the predefined setting is provided: `train_s1n02_tsdfhist.lua`.
 
 ## Requirements
-TBA
+To create the data and train/test the OctNetFusion code you need the following packages in your `$PYTHONPATH`
+- [oc](https://github.com/griegler/octnet): OctNet code/Python wrapper
+- [pyrender](https://github.com/griegler/pyrender): Depthmaps from triangle meshes
+- [pyfusion](https://github.com/griegler/pyfusion): Volumetric depth map fusion
