@@ -4,7 +4,7 @@ OctNetFusion is a data-driven method for volumetric depth fusion and depth compl
 
 This is the code for the paper:
 
-**[OctNetFusion: Learning Depth Fusion from Data](https://arxiv.org/abs/1611.05009)**
+**[OctNetFusion: Learning Depth Fusion from Data](https://arxiv.org/abs/1704.01047)**
 <br>
 [Gernot Riegler](https://griegler.github.io/), [Ali Osman Ulusoy](https://avg.is.tuebingen.mpg.de/person/oulusoy), [Horst Bischof](https://www.tugraz.at/institute/icg/research/team-bischof/people/team-about/horst-bischof/) and [Andreas Geiger](https://avg.is.tuebingen.mpg.de/person/ageiger)
 <br>
