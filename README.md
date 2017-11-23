@@ -14,6 +14,8 @@ This is the code for the paper:
 
 If you find this code useful for your research, please cite
 
+[GTC'17 Presentation](http://www.cvlibs.net/videos/gtc_17_talk.mp4)
+
 ```
 @inproceedings{Riegler2017OctNetFusion,
   title={OctNetFusion: Learning Depth Fusion from Data},
